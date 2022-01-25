@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: large;
+    background: radial-gradient(circle, rgba(27,26,186,1) 0%, rgba(25,43,147,1) 0%, rgba(154,27,210,1) 60%, rgba(15,95,217,1) 100%);
+}
+
+span {
+    text-transform: uppercase;
+    background-image: linear-gradient(    
+    -65deg, #ffffff 0%, #e0c1ec 29%, #0099ff 67%, #ffd000 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear;
+    -webkit-animation: textclip 3s linear;
+    text-align: center;
+}
