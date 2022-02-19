@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<title>Lista de productos</title>
+</head>
+
+<body>
+	<div class="container">
+		<form>
+			<h3>Lista de productos</h3>
+			<label for="product">Producto</label>
+			<br />
+			<input type="text" id="product" />
+			<br />
+			<label for="price">Precio</label>
+			<br />
+			<input type="number" id="price" />
+			<br />
+			<label for="quantity">Cantidad</label>
+			<br />
+			<input type="number" id="quantity" />
+			<br />
+			<div class="add-delete">
+				<input type="submit" value="Añadir" class="add" id="add" />
+				<input type="button" value="Borrar lista" class="delete" id="delete" />
+			</div>
+		</form>
+
+		<div class="list">
+			<ul class="ulist"></ul>
+			<h2 class="total"></h2>
+		</div>
+	</div>
+
+	<script src="javascript/index.js"></script>
+</body>
+
+</html>
